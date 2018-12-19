@@ -481,21 +481,6 @@
           <fbc:geneProductRef fbc:geneProduct="G_s0001"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_CS" reversible="false" name="citrate synthase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
-        <listOfReactants>
-          <speciesReference constant="true" species="M_accoa_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_oaa_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_cit_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_coa_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_b0720"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_CYTBD" reversible="false" name="cytochrome oxidase bd (ubiquinol-8: 2 protons)" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_h_c" stoichiometry="2"/>
