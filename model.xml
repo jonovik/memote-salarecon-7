@@ -521,18 +521,6 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_ENO" reversible="true" name="enolase" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
-        <listOfReactants>
-          <speciesReference constant="true" species="M_2pg_c" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_pep_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_b2779"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_ETOHt2r" reversible="true" name="ethanol reversible transport via proton symport" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_etoh_e" stoichiometry="1"/>
