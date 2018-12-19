@@ -34,6 +34,7 @@ memote report history --filename="${output}"
 # Add, commit and push the files.
 git add "${output}"
 git commit -m "Travis report #${TRAVIS_BUILD_NUMBER}"
+echo ********** TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING TESTING ************
 git pull -s recursive -X ours
 git push --quiet "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" "${deployment}" > /dev/null
 

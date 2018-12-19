@@ -367,19 +367,6 @@
           </fbc:and>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_AKGt2r" reversible="true" name="2-oxoglutarate reversible transport via symport" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
-        <listOfReactants>
-          <speciesReference constant="true" species="M_akg_e" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_e" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="M_akg_c" stoichiometry="1"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
-        </listOfProducts>
-        <fbc:geneProductAssociation>
-          <fbc:geneProductRef fbc:geneProduct="G_b2587"/>
-        </fbc:geneProductAssociation>
-      </reaction>
       <reaction fast="false" id="R_ALCD2x" reversible="true" name="alcohol dehydrogenase (ethanol)" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_etoh_c" stoichiometry="1"/>
